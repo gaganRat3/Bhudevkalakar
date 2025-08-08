@@ -24,9 +24,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-your-secret-key-here-change-this-in-production'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '0.0.0.0']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '0.0.0.0',
+                 'bhudevkalakar-bhudevnetwork.pythonanywhere.com', ]
 
 
 # Application definition
@@ -47,6 +48,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',  # <-- Add this line
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -142,9 +144,9 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:3000",
     "http://localhost:8000",
     "http://127.0.0.1:8000",
+    "https://bhudevkalakar-bhudevnetwork.pythonanywhere.com",  # Added https://
 ]
-
-CORS_ALLOW_ALL_ORIGINS = True  # Only for development
+CORS_ALLOW_ALL_ORIGINS = False  # Only for development
 
 # REST Framework settings
 REST_FRAMEWORK = {
@@ -205,3 +207,5 @@ LOGGING = {
 # Grappelli Settings
 GRAPPELLI_ADMIN_TITLE = "Bhudev Kalakaar 2025 - Admin Panel"
 GRAPPELLI_INDEX_DASHBOARD = 'talent_event_backend.dashboard.CustomIndexDashboard'
+
+# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'

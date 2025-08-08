@@ -1,5 +1,6 @@
 from django.db import models
 from django.utils import timezone
+from django.core.exceptions import ValidationError
 import uuid
 import os
 
@@ -96,6 +97,8 @@ class TalentEventRegistration(models.Model):
             models.Index(fields=['event']),
             models.Index(fields=['age_group']),
             models.Index(fields=['city']),
+            # Index for faster duplicate checking
+            models.Index(fields=['full_name', 'whatsapp_number']),
         ]
 
     def __str__(self):
@@ -113,8 +116,33 @@ class TalentEventRegistration(models.Model):
             return round(self.photo.size / (1024 * 1024), 2)
         return 0
 
+    def clean(self):
+        """Custom validation for the model"""
+        super().clean()
+
+        # Check for duplicate BOTH full_name AND whatsapp_number combination
+        # Only show warning if BOTH fields match exactly
+        if self.full_name and self.whatsapp_number:
+            existing = TalentEventRegistration.objects.filter(
+                full_name__iexact=self.full_name.strip(),
+                whatsapp_number=self.whatsapp_number.strip()
+            )
+
+            # Exclude current instance if editing
+            if self.pk:
+                existing = existing.exclude(pk=self.pk)
+
+            if existing.exists():
+                existing_user = existing.first()
+                raise ValidationError({
+                    '__all__': f'Warning: A participant with both the same name "{self.full_name}" and WhatsApp number "{self.whatsapp_number}" already exists (Registration #{existing_user.serial_number}). If this is a different person, please use a different name or contact support.'
+                })
+
     def save(self, *args, **kwargs):
         """Custom save method with validation and auto serial number"""
+        # Run clean validation first
+        self.clean()
+
         # Validate terms agreement
         if self.terms != 'yes':
             raise ValueError("Terms and conditions must be agreed to register")

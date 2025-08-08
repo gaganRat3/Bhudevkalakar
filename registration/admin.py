@@ -17,7 +17,7 @@ class TalentEventRegistrationAdmin(admin.ModelAdmin):
     """Admin interface for TalentEventRegistration"""
 
     list_display = [
-        'serial_number', 'full_name', 'event', 'age_group',
+        'serial_number', 'full_name', 'gender', 'date_of_birth', 'event', 'age_group',
         'city', 'whatsapp_number', 'photo_preview', 'created_at', 'is_active'
     ]
 

@@ -8,6 +8,7 @@ from django.db.models import Count
 from django.utils import timezone
 from django.core.files.storage import default_storage
 from django.core.files.base import ContentFile
+from django.core.exceptions import ValidationError
 import logging
 import uuid
 
@@ -40,6 +41,19 @@ def submit_registration(request):
 
         # Handle photo upload
         photo = request.FILES.get('photo')
+
+        # Check for duplicate registration (same name AND WhatsApp number)
+        existing_registration = TalentEventRegistration.objects.filter(
+            full_name__iexact=frontend_data['fullName'],
+            whatsapp_number=frontend_data['whatsappNumber']
+        ).first()
+
+        if existing_registration:
+            error_message = "A participant with both the same name and WhatsApp number already exists. Please check your details or contact support if this is an error."
+            logger.warning(
+                f"Duplicate registration attempt: {frontend_data.get('fullName')} - {frontend_data.get('whatsappNumber')}")
+            messages.error(request, error_message)
+            return redirect('registration_form')
 
         # Create registration record with proper field mapping
         registration = TalentEventRegistration.objects.create(
@@ -96,6 +110,18 @@ def submit_registration(request):
 
         # Redirect to confirmation page
         return redirect('confirmation')
+
+    except ValidationError as ve:
+        # Handle duplicate name/WhatsApp validation error
+        if hasattr(ve, 'error_dict') and '__all__' in ve.error_dict:
+            error_message = ve.error_dict['__all__'][0].message
+        else:
+            error_message = "Registration failed: A participant with both the same name and WhatsApp number already exists. Please check your details or contact support if this is an error."
+
+        logger.warning(
+            f"Duplicate registration attempt: {frontend_data.get('fullName')} - {frontend_data.get('whatsappNumber')}")
+        messages.error(request, error_message)
+        return redirect('registration_form')
 
     except Exception as e:
         logger.error(f"Registration submission error: {str(e)}")
