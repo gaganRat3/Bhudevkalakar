@@ -969,3 +969,37 @@ C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\tale
 Watching for file changes with StatReloader
 C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\talent_event_backend\settings.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 69420
+"GET /static/images/Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 304 0
+"GET /static/images/Poster.jpg HTTP/1.1" 200 380403
+"GET /static/images/TeamMember.jpg HTTP/1.1" 200 429007
+"GET / HTTP/1.1" 200 70267
+"GET /static/images/Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 304 0
+"GET /static/images/Poster.jpg HTTP/1.1" 304 0
+"GET /static/images/TeamMember.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 74478
+"GET /static/images/Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 304 0
+"GET /static/images/Poster.jpg HTTP/1.1" 304 0
+"GET /static/images/TeamMember.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 74609
+"GET /static/images/Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 304 0
+"GET /static/images/Poster.jpg HTTP/1.1" 304 0
+"GET /static/images/TeamMember.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 74609
+"GET / HTTP/1.1" 200 74609
+"GET /static/images/Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 304 0
+"GET /static/images/TeamMember.jpg HTTP/1.1" 304 0
+"GET /static/images/Poster.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 73568
+"GET /static/images/Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 304 0
+"GET /static/images/TeamMember.jpg HTTP/1.1" 304 0
+"GET /static/images/Poster.jpg HTTP/1.1" 304 0
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3451
+"GET / HTTP/1.1" 200 78199
+"GET /static/images/Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 304 0
+"GET /static/images/TeamMember.jpg HTTP/1.1" 304 0
+"GET /static/images/Poster.jpg HTTP/1.1" 304 0
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3451
