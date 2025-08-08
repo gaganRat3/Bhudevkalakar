@@ -18,7 +18,7 @@ class TalentEventRegistrationAdmin(admin.ModelAdmin):
 
     list_display = [
         'serial_number', 'full_name', 'gender', 'date_of_birth', 'event', 'age_group',
-        'city', 'whatsapp_number', 'photo_preview', 'created_at', 'is_active'
+        'city', 'whatsapp_number', 'talent_preview', 'photo_preview', 'created_at', 'is_active'
     ]
 
     list_filter = [
@@ -77,7 +77,7 @@ class TalentEventRegistrationAdmin(admin.ModelAdmin):
             'fields': ('full_name', 'gender', 'date_of_birth', 'age_group')
         }),
         ('Event Information', {
-            'fields': ('event', 'city')
+            'fields': ('event', 'talent_details', 'city')
         }),
         ('Contact Information', {
             'fields': ('whatsapp_number',)
@@ -107,6 +107,15 @@ class TalentEventRegistrationAdmin(admin.ModelAdmin):
             )
         return "No Photo"
     photo_preview.short_description = "Photo Preview"
+
+    def talent_preview(self, obj):
+        """Display talent details preview in admin"""
+        if obj.talent_details:
+            preview = obj.talent_details[:50] + "..." if len(
+                obj.talent_details) > 50 else obj.talent_details
+            return format_html('<span title="{}">{}</span>', obj.talent_details, preview)
+        return "No Details"
+    talent_preview.short_description = "Talent Details"
 
     def get_queryset(self, request):
         """Optimize queryset"""
@@ -145,7 +154,7 @@ class TalentEventRegistrationAdmin(admin.ModelAdmin):
         # Define headers
         headers = [
             'Serial No.', 'Registration ID', 'Full Name', 'Gender', 'Date of Birth',
-            'Age Group', 'Event', 'City', 'WhatsApp Number', 'Terms Agreed',
+            'Age Group', 'Event', 'Talent Details', 'City', 'WhatsApp Number', 'Terms Agreed',
             'Registration Date', 'Photo Size (MB)', 'Active Status'
         ]
 
@@ -176,6 +185,7 @@ class TalentEventRegistrationAdmin(admin.ModelAdmin):
                 registration.date_of_birth,
                 registration.get_age_group_display(),
                 registration.get_event_display(),
+                registration.talent_details or 'Not provided',
                 registration.city,
                 registration.whatsapp_number,
                 registration.get_terms_display(),
@@ -218,7 +228,7 @@ class TalentEventRegistrationAdmin(admin.ModelAdmin):
         # Write headers
         writer.writerow([
             'Serial No.', 'Registration ID', 'Full Name', 'Gender', 'Date of Birth',
-            'Age Group', 'Event', 'City', 'WhatsApp Number', 'Terms Agreed',
+            'Age Group', 'Event', 'Talent Details', 'City', 'WhatsApp Number', 'Terms Agreed',
             'Registration Date', 'Photo Size (MB)', 'Active Status'
         ])
 
@@ -235,6 +245,7 @@ class TalentEventRegistrationAdmin(admin.ModelAdmin):
                 registration.date_of_birth,
                 registration.get_age_group_display(),
                 registration.get_event_display(),
+                registration.talent_details or 'Not provided',
                 registration.city,
                 registration.whatsapp_number,
                 registration.get_terms_display(),

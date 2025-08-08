@@ -59,6 +59,9 @@ class TalentEventRegistration(models.Model):
     # Event Information
     event = models.CharField(
         max_length=30, choices=EVENT_CHOICES, verbose_name="Event Category")
+    talent_details = models.TextField(
+        max_length=500, verbose_name="Talent Details",
+        help_text="Details about talent (instruments, awards, shows, etc.)")
     city = models.CharField(
         max_length=100, verbose_name="Current Residence City")
 

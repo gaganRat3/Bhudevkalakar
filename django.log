@@ -859,3 +859,113 @@ Duplicate registration attempt: sdfgh - 23456786
 Duplicate registration attempt: sdfgh - 23456786
 "POST /submit/ HTTP/1.1" 302 0
 "GET / HTTP/1.1" 200 65614
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 64452
+"GET /static/images/Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 64452
+"GET /static/images/Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 64452
+"GET / HTTP/1.1" 200 64452
+"GET /static/images/Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 200 333874
+"GET / HTTP/1.1" 200 64455
+"GET /static/images/Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 64464
+"GET /static/images/Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 64956
+"GET /static/images/Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 64966
+"GET /static/images/Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 64967
+"GET / HTTP/1.1" 200 64967
+"GET /static/images/Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 304 0
+Registration created successfully: ID 5df4c3fb-5129-4fe4-9940-3aae68288962
+"POST /submit/ HTTP/1.1" 302 0
+"GET /confirmation/ HTTP/1.1" 200 8987
+"GET /admin/ HTTP/1.1" 200 10939
+"GET /static/grappelli/jquery/ui/jquery-ui.min.css HTTP/1.1" 304 0
+"GET /static/grappelli/stylesheets/screen.css HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/stylesheets/mueller/grid/output.css HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/jquery-migrate-3.0.1.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/ui/jquery-ui.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/js/grappelli.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/images/spritesheet-1694777276.png HTTP/1.1" 304 0
+"GET /admin/registration/talenteventregistration/ HTTP/1.1" 200 28716
+"GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+Not Found: /media/participant_photos/94167f81-8680-4502-bf55-46fa9d74a8b7.png
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /media/participant_photos/94167f81-8680-4502-bf55-46fa9d74a8b7.png HTTP/1.1" 404 179
+Not Found: /media/participant_photos/5ec2b016-e7f4-48ef-92a2-b13501ec7562.png
+"GET /media/participant_photos/5ec2b016-e7f4-48ef-92a2-b13501ec7562.png HTTP/1.1" 404 179
+Not Found: /media/participant_photos/6c330c07-209d-4322-ba58-1082c07c8935.png
+Not Found: /media/participant_photos/1d01efba-3e89-46f3-b25a-dd3c20d4f5e1.png
+Not Found: /media/participant_photos/2001f764-04f1-49ce-b3a3-00ba3550049d.png
+Not Found: /media/participant_photos/84d22876-0380-46a7-af8d-cca2ddf34646.png
+Not Found: /media/participant_photos/2eac2860-d1f0-4229-af07-6f6fc6cfa48b.png
+"GET /media/participant_photos/6c330c07-209d-4322-ba58-1082c07c8935.png HTTP/1.1" 404 179
+"GET /media/participant_photos/1d01efba-3e89-46f3-b25a-dd3c20d4f5e1.png HTTP/1.1" 404 179
+"GET /media/participant_photos/2001f764-04f1-49ce-b3a3-00ba3550049d.png HTTP/1.1" 404 179
+Not Found: /media/participant_photos/f63c8772-2ced-4910-af9e-341a1dc3e92e.png
+"GET /media/participant_photos/84d22876-0380-46a7-af8d-cca2ddf34646.png HTTP/1.1" 404 179
+"GET /media/participant_photos/2eac2860-d1f0-4229-af07-6f6fc6cfa48b.png HTTP/1.1" 404 179
+"GET /media/participant_photos/f63c8772-2ced-4910-af9e-341a1dc3e92e.png HTTP/1.1" 404 179
+"GET /static/grappelli/images/backgrounds/changelist-results.png HTTP/1.1" 304 0
+"GET /static/grappelli/images/icons/form-select.png HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 64967
+"GET /static/images/Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 64967
+"GET /static/images/Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 65393
+"GET /static/images/Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 304 0
+Registration created successfully: ID d3969344-5ef9-4daf-a5e2-956e00120d72
+"POST /submit/ HTTP/1.1" 302 0
+"GET /confirmation/ HTTP/1.1" 200 8987
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 6142
+"GET /static/grappelli/jquery/ui/jquery-ui.min.css HTTP/1.1" 304 0
+"GET /static/grappelli/stylesheets/screen.css HTTP/1.1" 304 0
+"GET /static/grappelli/stylesheets/mueller/grid/output.css HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/jquery-migrate-3.0.1.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/ui/jquery-ui.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/js/grappelli.min.js HTTP/1.1" 304 0
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 6482
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 6482
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 10939
+"GET /static/grappelli/jquery/ui/jquery-ui.min.css HTTP/1.1" 304 0
+"GET /static/grappelli/stylesheets/screen.css HTTP/1.1" 304 0
+"GET /static/grappelli/js/grappelli.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/stylesheets/mueller/grid/output.css HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/jquery-migrate-3.0.1.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/ui/jquery-ui.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/images/spritesheet-1694777276.png HTTP/1.1" 304 0
+"GET /admin/registration/talenteventregistration/ HTTP/1.1" 200 21652
+"GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 304 0
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+Not Found: /media/participant_photos/63eab869-4c86-4666-8cef-6fe43f37764e.png
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /media/participant_photos/63eab869-4c86-4666-8cef-6fe43f37764e.png HTTP/1.1" 404 179
+"GET /static/grappelli/images/backgrounds/changelist-results.png HTTP/1.1" 304 0
+"GET /static/grappelli/images/icons/form-select.png HTTP/1.1" 304 0
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\talent_event_backend\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\talent_event_backend\settings.py changed, reloading.
+Watching for file changes with StatReloader

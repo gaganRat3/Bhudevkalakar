@@ -1566,14 +1566,14 @@
 
                 <!-- Full Name Section -->
                 <div class="input-group">
-                    <label for="fullName" class="input-label">Full Name of the Participant *</label>
+                    <label for="fullName" class="input-label">1. Full Name of the Participant *</label>
                     <input type="text" id="fullName" name="fullName" placeholder="Enter full name" class="input-field"
                         required>
                 </div>
 
                 <!-- Gender Section -->
                 <div class="input-group">
-                    <p class="input-label">Male / Female *</p>
+                    <p class="input-label">2. Male / Female *</p>
                     <div class="flex radio-group">
                         <label>
                             <input type="radio" name="gender" value="male" required>
@@ -1588,14 +1588,14 @@
 
                 <!-- Date of Birth Section -->
                 <div class="input-group">
-                    <label for="dateOfBirth" class="input-label">Date of Birth *</label>
+                    <label for="dateOfBirth" class="input-label">3. Date of Birth *</label>
                     <input type="text" id="dateOfBirth" name="dateOfBirth" placeholder="DD-MM-YYYY" class="input-field"
                         required maxlength="10">
                 </div>
 
                 <!-- Age Group Section -->
                 <div class="input-group">
-                    <p class="input-label">Which Age Group *</p>
+                    <p class="input-label">4. Which Age Group *</p>
                     <div class="flex flex-col radio-group">
                         <label>
                             <input type="radio" name="ageGroup" value="5-10" required>
@@ -1618,7 +1618,7 @@
 
                 <!-- Event Participation Section -->
                 <div class="input-group">
-                    <p class="input-label">Which Event You are Participating ? *</p>
+                    <p class="input-label">5. Which Event You are Participating ? *</p>
                     <div class="flex flex-col radio-group">
                         <label>
                             <input type="radio" name="event" value="singing" required>
@@ -1639,22 +1639,30 @@
                     </div>
                 </div>
 
+                <!-- talent details -->
+                <div class="input-group">
+                    <label for="talent" class="input-label">6. Mention here some Details about your Talent (eg. Which
+                        Instrument, any National or international Shows, Contest Winner, awards etc) *</label>
+                    <input type="text" id="talent" name="Talent" placeholder="Enter your talent" class="input-field"
+                        required>
+                </div>
+
                 <!-- Current Residence City Section -->
                 <div class="input-group">
-                    <label for="city" class="input-label">Your Current Residence City *</label>
+                    <label for="city" class="input-label">7. Your Current Residence City *</label>
                     <input type="text" id="city" name="city" placeholder="Enter your city" class="input-field" required>
                 </div>
 
                 <!-- WhatsApp Number Section -->
                 <div class="input-group">
-                    <label for="whatsappNumber" class="input-label">WhatsApp Number *</label>
+                    <label for="whatsappNumber" class="input-label">8. WhatsApp Number *</label>
                     <input type="tel" id="whatsappNumber" name="whatsappNumber" placeholder="Enter WhatsApp number"
                         class="input-field" required>
                 </div>
 
                 <!-- Photo Upload Section -->
                 <div class="input-group">
-                    <label for="photo" class="input-label">Attach Your Photo here : (FREE Entry chhe) *</label>
+                    <label for="photo" class="input-label">9. Attach Your Photo here : (FREE Entry chhe) *</label>
 
                     <!-- Upload Placeholder (shown when no image selected) -->
                     <div id="uploadPlaceholder" class="upload-placeholder"
@@ -1683,7 +1691,7 @@
 
                 <!-- Terms and Conditions Section -->
                 <div class="input-group">
-                    <p class="input-label">Terms & Conditions Agreement *</p>
+                    <p class="input-label">10. Terms & Conditions Agreement *</p>
 
                     <!-- Terms Text Box -->
                     <div class="terms-container">
@@ -1691,7 +1699,7 @@
                             <h4 class="terms-title">📝 Video Submission Requirements:</h4>
                             <ul class="terms-list">
                                 <li>📤 Send your <strong>1 Minute Talent Video clip</strong> to WhatsApp Number <strong
-                                        class="highlight-number">9099048986</strong></li>
+                                        class="highlight-number"> 9662766565</strong></li>
                                 <li> Include the following information with your video:</li>
                                 <ul class="terms-sublist">
                                     <li> <strong>Full Name</strong></li>
@@ -1771,6 +1779,10 @@
                     <div class="review-item">
                         <span class="review-label">Event Category:</span>
                         <span class="review-value" id="reviewEvent">-</span>
+                    </div>
+                    <div class="review-item">
+                        <span class="review-label">Talent Details:</span>
+                        <span class="review-value" id="reviewTalent">-</span>
                     </div>
                     <div class="review-item">
                         <span class="review-label">City:</span>
@@ -1958,6 +1970,7 @@
                     dateOfBirth: document.getElementById('dateOfBirth')?.value || '',
                     ageGroup: document.querySelector('input[name="ageGroup"]:checked')?.value || '',
                     event: document.querySelector('input[name="event"]:checked')?.value || '',
+                    talent: document.getElementById('talent')?.value || '',
                     city: document.getElementById('city')?.value || '',
                     whatsappNumber: document.getElementById('whatsappNumber')?.value || '',
                     photo: document.getElementById('photo')?.files[0] || null,
@@ -1972,6 +1985,7 @@
                     data.dateOfBirth &&
                     data.ageGroup &&
                     data.event &&
+                    data.talent &&
                     data.city &&
                     data.whatsappNumber &&
                     data.photo &&
@@ -2003,6 +2017,7 @@
                 };
                 document.getElementById('reviewEvent').textContent = eventMap[data.event] || '-';
 
+                document.getElementById('reviewTalent').textContent = data.talent || '-';
                 document.getElementById('reviewCity').textContent = data.city || '-';
                 document.getElementById('reviewWhatsApp').textContent = data.whatsappNumber || '-';
                 document.getElementById('reviewPhoto').textContent = data.photo ?
