@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhudev Kalakaar 2025 - Talent Registration</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .form-container {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-radius: 2rem;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            max-width: 750px;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .header-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 2rem;
+            text-align: center;
+            color: white;
+        }
+
+        .form-content {
+            padding: 3rem 2.5rem;
+        }
+
+        .input-group {
+            margin-bottom: 2rem;
+        }
+
+        .input-label {
+            display: block;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            color: #2d3748;
+            font-size: 1.1rem;
+        }
+
+        .input-field {
+            width: 100%;
+            padding: 1rem 1.25rem;
+            border: 2px solid #e2e8f0;
+            border-radius: 1rem;
+            font-size: 1rem;
+            color: #2d3748;
+            background: #ffffff;
+            outline: none;
+            transition: all 0.3s ease;
+        }
+
+        .input-field:focus {
+            border-color: #667eea;
+            box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.2);
+        }
+
+        .radio-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .radio-group label {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            padding: 0.75rem 1rem;
+            border: 2px solid #e2e8f0;
+            border-radius: 0.75rem;
+            transition: all 0.3s ease;
+        }
+
+        .radio-group label:hover {
+            border-color: #667eea;
+            background: #f7fafc;
+        }
+
+        .radio-group input[type="radio"] {
+            margin-right: 0.5rem;
+        }
+
+        .radio-group input[type="radio"]:checked+span {
+            color: #667eea;
+            font-weight: 600;
+        }
+
+        .submit-button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 1rem;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            width: 100%;
+            max-width: 300px;
+        }
+
+        .submit-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .terms-container {
+            background: #f7fafc;
+            border: 2px solid #e2e8f0;
+            border-radius: 1rem;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .terms-content {
+            color: #2d3748;
+            line-height: 1.6;
+        }
+
+        .terms-title {
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: #667eea;
+        }
+
+        .terms-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .terms-list li {
+            margin-bottom: 0.5rem;
+            padding-left: 1rem;
+        }
+
+        .terms-sublist {
+            margin-left: 1rem;
+            margin-top: 0.5rem;
+        }
+
+        .highlight-number {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 0.2rem 0.5rem;
+            border-radius: 0.5rem;
+            font-weight: 700;
+        }
+
+        .terms-highlight {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1rem;
+            border-radius: 0.75rem;
+            margin-top: 1rem;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .agreement-section {
+            margin-top: 1rem;
+        }
+
+        .agreement-question {
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #2d3748;
+        }
+
+        .agreement-option {
+            background: white;
+            border: 2px solid #e2e8f0;
+            padding: 1rem;
+            border-radius: 0.75rem;
+            margin-right: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .agreement-option:hover {
+            border-color: #667eea;
+            background: #f7fafc;
+        }
+
+        .agreement-option input[type="radio"]:checked+span {
+            color: #667eea;
+            font-weight: 700;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form-container">
+        <div class="header-bg">
+            <h1 class="text-3xl font-bold mb-2">🎭 Bhudev Kalakaar</h1>
+            <p class="text-xl">Mega Talent Event 2025</p>
+        </div>
+
+        <div class="form-content">
+            <!-- Django Form -->
+            <form method="post" action="{% url 'submit_registration' %}" enctype="multipart/form-data">
+                {% csrf_token %}
+
+                <!-- Full Name Section -->
+                <div class="input-group">
+                    <label for="fullName" class="input-label">Full Name of the Participant *</label>
+                    <input type="text" id="fullName" name="fullName" placeholder="Enter full name" class="input-field"
+                        required>
+                </div>
+
+                <!-- Gender Section -->
+                <div class="input-group">
+                    <p class="input-label">Male / Female *</p>
+                    <div class="radio-group">
+                        <label>
+                            <input type="radio" name="gender" value="male" required>
+                            <span>👨 Male</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="gender" value="female" required>
+                            <span>👩 Female</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Date of Birth Section -->
+                <div class="input-group">
+                    <label for="dateOfBirth" class="input-label">Date of Birth *</label>
+                    <input type="text" id="dateOfBirth" name="dateOfBirth" placeholder="DD-MM-YYYY" class="input-field"
+                        required maxlength="10">
+                </div>
+
+                <!-- Age Group Section -->
+                <div class="input-group">
+                    <p class="input-label">Which Age Group *</p>
+                    <div class="radio-group" style="flex-direction: column;">
+                        <label>
+                            <input type="radio" name="ageGroup" value="5-10" required>
+                            <span>🧒 5 Yrs to 10 Yrs</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="ageGroup" value="11-20" required>
+                            <span>👦 11 Yrs to 20 Yrs</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="ageGroup" value="21-40" required>
+                            <span>👨 21 Yrs to 40 Yrs</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="ageGroup" value="41-above" required>
+                            <span>👴 41 Yrs and Above</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Event Participation Section -->
+                <div class="input-group">
+                    <p class="input-label">Which Event You are Participating ? *</p>
+                    <div class="radio-group" style="flex-direction: column;">
+                        <label>
+                            <input type="radio" name="event" value="singing" required>
+                            <span>🎤 Singing</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="event" value="dancing" required>
+                            <span>💃 Dancing</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="event" value="musical-instrument" required>
+                            <span>🎹 Musical Instrument</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="event" value="others" required>
+                            <span>🎭 Others</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Current Residence City Section -->
+                <div class="input-group">
+                    <label for="city" class="input-label">Your Current Residence City *</label>
+                    <input type="text" id="city" name="city" placeholder="Enter your city" class="input-field" required>
+                </div>
+
+                <!-- WhatsApp Number Section -->
+                <div class="input-group">
+                    <label for="whatsappNumber" class="input-label">WhatsApp Number *</label>
+                    <input type="tel" id="whatsappNumber" name="whatsappNumber" placeholder="Enter WhatsApp number"
+                        class="input-field" required>
+                </div>
+
+                <!-- Photo Upload Section -->
+                <div class="input-group">
+                    <label for="photo" class="input-label">Attach Your Photo here : (FREE Entry) *</label>
+                    <input type="file" id="photo" name="photo" accept="image/*" class="input-field" required>
+                    <p class="text-sm text-gray-500 mt-1">Upload 1 supported file. Max 100 MB.</p>
+                </div>
+
+                <!-- Terms and Conditions Section -->
+                <div class="input-group">
+                    <p class="input-label">Terms & Conditions Agreement *</p>
+
+                    <!-- Terms Text Box -->
+                    <div class="terms-container">
+                        <div class="terms-content">
+                            <h4 class="terms-title">📝 Video Submission Requirements:</h4>
+                            <ul class="terms-list">
+                                <li>📤 Send your <strong>1 Minute Talent Video clip</strong> to WhatsApp Number <strong
+                                        class="highlight-number">9099048986</strong></li>
+                                <li>📋 Include the following information with your video:</li>
+                                <ul class="terms-sublist">
+                                    <li>✓ <strong>Full Name</strong></li>
+                                    <li>✓ <strong>Event Category</strong></li>
+                                    <li>✓ <strong>Date of Birth</strong></li>
+                                    <li>✓ <strong>City</strong></li>
+                                </ul>
+                                <li>📖 By submitting, you agree to follow all <strong>rules, regulations, and Terms &
+                                        Conditions</strong> of this Mega Talent Event</li>
+                            </ul>
+
+                            <div class="terms-highlight">
+                                🎪 <strong>FREE Entry!</strong> - This is a free talent competition for all
+                                participants.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Agreement Radio Buttons -->
+                    <div class="agreement-section">
+                        <p class="agreement-question">Do you agree to the above terms and conditions? *</p>
+                        <div class="radio-group">
+                            <label class="agreement-option">
+                                <input type="radio" name="terms" value="yes" required>
+                                <span>✅ Yes, I Agree</span>
+                            </label>
+                            <label class="agreement-option">
+                                <input type="radio" name="terms" value="no" required>
+                                <span>❌ No, I Don't Agree</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="text-center">
+                    <button type="submit" class="submit-button">🚀 Submit Application</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // Simple date formatting for DD-MM-YYYY
+        document.getElementById('dateOfBirth').addEventListener('input', function (e) {
+            let value = e.target.value.replace(/\D/g, '');
+            if (value.length >= 2) {
+                value = value.substring(0, 2) + '-' + value.substring(2);
+            }
+            if (value.length >= 5) {
+                value = value.substring(0, 5) + '-' + value.substring(5, 9);
+            }
+            e.target.value = value;
+        });
+
+        // Only allow numbers and dashes for date input
+        document.getElementById('dateOfBirth').addEventListener('keypress', function (e) {
+            const char = String.fromCharCode(e.which);
+            if (!/[0-9]/.test(char) && char !== '-') {
+                e.preventDefault();
+            }
+        });
+    </script>
+</body>
+
+</html>

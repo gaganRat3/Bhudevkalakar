@@ -1,0 +1,30 @@
+# Core Django packages
+Django==4.2.16
+djangorestframework==3.15.2
+django-cors-headers==4.4.0
+
+# Excel export functionality
+openpyxl==3.1.5
+
+# Image handling (Python 3.13 compatible)
+Pillow==10.4.0
+
+# Configuration management
+python-decouple==3.8
+
+# Production server
+gunicorn==22.0.0
+
+# Static files
+whitenoise==6.7.0
+
+# Database (optional - remove if not using PostgreSQL)
+# psycopg2-binary==2.9.9
+
+# Task queue (optional - remove if not using Celery)
+# celery==5.4.0
+# redis==5.0.8
+
+# Cloud storage (optional - remove if not using AWS S3)
+# django-storages==1.14.4
+# boto3==1.35.0

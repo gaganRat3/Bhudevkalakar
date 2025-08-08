@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Confirmed - Bhudev Kalakaar 2025</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Confirmation Page Styles */
+        .confirmation-icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        .success-checkmark {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto;
+        }
+
+        .check-icon {
+            width: 120px;
+            height: 120px;
+            position: relative;
+            border-radius: 50%;
+            box-sizing: content-box;
+            border: 4px solid #4caf50;
+            background: #ffffff;
+            animation: checkmark-bounce 0.6s ease-in-out;
+        }
+
+        .check-icon::before {
+            top: 3px;
+            left: -2px;
+            width: 30px;
+            height: 60px;
+            border-radius: 50px 50px 50px 50px;
+            position: absolute;
+            transform: rotate(-45deg);
+            background: #ffffff;
+            content: '';
+            animation: checkmark-circle 0.6s ease-in-out 0.36s both;
+        }
+
+        .icon-line {
+            height: 5px;
+            background-color: #4caf50;
+            display: block;
+            border-radius: 2px;
+            position: absolute;
+            z-index: 10;
+        }
+
+        .icon-line.line-tip {
+            top: 46px;
+            left: 14px;
+            width: 25px;
+            transform: rotate(45deg);
+            animation: checkmark-icon-tip 0.75s 0.36s ease-in-out both;
+        }
+
+        .icon-line.line-long {
+            top: 38px;
+            right: 8px;
+            width: 47px;
+            transform: rotate(-45deg);
+            animation: checkmark-icon-long 0.75s 0.71s ease-in-out both;
+        }
+
+        .icon-circle {
+            top: -4px;
+            left: -4px;
+            z-index: 10;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            position: absolute;
+            border: 4px solid rgba(76, 175, 80, 0.5);
+            animation: checkmark-circle 0.6s ease-in-out both;
+        }
+
+        .icon-fix {
+            top: 8px;
+            width: 5px;
+            left: 26px;
+            z-index: 1;
+            height: 85px;
+            position: absolute;
+            transform: rotate(-45deg);
+            background-color: #ffffff;
+        }
+
+        @keyframes checkmark-bounce {
+            0% {
+                opacity: 0;
+                transform: scale(0);
+            }
+
+            25% {
+                opacity: 1;
+                transform: scale(1.2);
+            }
+
+            50% {
+                transform: scale(1);
+            }
+        }
+
+        @keyframes checkmark-circle {
+            0% {
+                stroke-dashoffset: 166;
+            }
+
+            100% {
+                stroke-dashoffset: 0;
+            }
+        }
+
+        @keyframes checkmark-icon-tip {
+            0% {
+                width: 0;
+                left: 1px;
+                top: 19px;
+            }
+
+            54% {
+                width: 0;
+                left: 1px;
+                top: 19px;
+            }
+
+            70% {
+                width: 50px;
+                left: -8px;
+                top: 37px;
+            }
+
+            84% {
+                width: 17px;
+                left: 21px;
+                top: 48px;
+            }
+
+            100% {
+                width: 25px;
+                left: 14px;
+                top: 45px;
+            }
+        }
+
+        @keyframes checkmark-icon-long {
+            0% {
+                width: 0;
+                right: 46px;
+                top: 54px;
+            }
+
+            65% {
+                width: 0;
+                right: 46px;
+                top: 54px;
+            }
+
+            84% {
+                width: 55px;
+                right: 0px;
+                top: 35px;
+            }
+
+            100% {
+                width: 47px;
+                right: 8px;
+                top: 38px;
+            }
+        }
+
+        .confirmation-content {
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        .confirmation-title {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: #2d3748;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .confirmation-message {
+            font-size: 1.25rem;
+            color: #4a5568;
+            margin-bottom: 2rem;
+        }
+
+        .next-steps {
+            text-align: left;
+            margin: 2rem 0;
+        }
+
+        .next-steps h3 {
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #2d3748;
+            margin-bottom: 1.5rem;
+        }
+
+        .step-card {
+            display: flex;
+            align-items: center;
+            background: linear-gradient(145deg, #f8fafc, #e2e8f0);
+            border-radius: 1rem;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            border: 2px solid #cbd5e0;
+            transition: all 0.3s ease;
+        }
+
+        .step-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 16px rgba(102, 126, 234, 0.15);
+        }
+
+        .step-number {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 1.25rem;
+            margin-right: 1.5rem;
+            flex-shrink: 0;
+        }
+
+        .step-content h4 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #2d3748;
+            margin-bottom: 0.5rem;
+        }
+
+        .step-content p {
+            color: #4a5568;
+            margin: 0;
+        }
+
+        .contact-info {
+            background: linear-gradient(145deg, #e6fffa, #bee3f8);
+            border: 2px solid #4fd1c7;
+            border-radius: 1rem;
+            padding: 1rem;
+            margin: 2rem 0;
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form-container">
+        <div class="p-8 text-center">
+            <!-- Success Icon -->
+            <!-- <div class="check-icon"></div> -->
+
+            <!-- Success Message -->
+            <h1
+                class="text-4xl font-bold mb-4 bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
+                🎉 Registration Successful!
+            </h1>
+            <br>
+            <p class="text-xl text-gray-600 mb-4">
+                Thank you for registering for <strong>Bhudev Kalakaar 2025</strong>!
+            </p>
+
+            <!-- Registration ID Display -->
+            <div class="bg-gradient-to-r from-green-50 to-blue-50 border-2 border-green-300 rounded-lg p-4 mb-8">
+                <p class="text-lg font-bold text-green-800">
+                    Thanks for submitting your Entry to BHUDEV KALAKAAR - 2025 MEGA Talent EVENT ! <br>
+                    We will give your Confirmation Phone Call in 2-3 Days. <br> You can Phone Call on 9099048986 between
+                    9 AM
+                    to 6 PM <br>
+                    JOIN our Free Talent WhatsApp Group:
+                    <a href="https://chat.whatsapp.com/HOQcykqgbbyBcCFR8oqbsP" target="_blank"
+                        class="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg ml-2 transition-all duration-300 transform hover:scale-105 shadow-lg">
+                        📱 Join WhatsApp Group
+                    </a>
+                </p>
+            </div>
+
+
+            <script>
+                // Load and display registration ID from sessionStorage
+                document.addEventListener('DOMContentLoaded', function () {
+                    const registrationId = sessionStorage.getItem('registrationId');
+                    const registrationIdElement = document.getElementById('registrationId');
+
+                    if (registrationId) {
+                        registrationIdElement.textContent = registrationId;
+                        // Clear the stored ID after displaying
+                        sessionStorage.removeItem('registrationId');
+                    } else {
+                        registrationIdElement.textContent = 'Please contact us for your registration ID';
+                    }
+                });
+            </script>
+</body>
+
+</html>

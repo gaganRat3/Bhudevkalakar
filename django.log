@@ -1,0 +1,583 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 52629
+Not Found: /Bhudev Kalakaar 2025 (1)(1)(1).png
+"GET /Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 404 3613
+Not Found: /Bhudev Kalakaar 2025 (1)(1)(1).png
+"GET /Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 404 3613
+"GET / HTTP/1.1" 200 52629
+Not Found: /Bhudev Kalakaar 2025 (1)(1)(1).png
+"GET /Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 404 3613
+Not Found: /Bhudev Kalakaar 2025 (1)(1)(1).png
+"GET /Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 404 3613
+"POST /api/submit/ HTTP/1.1" 200 106
+"GET / HTTP/1.1" 200 52652
+Not Found: /Bhudev Kalakaar 2025 (1)(1)(1).png
+"GET /Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 404 3613
+Not Found: /Bhudev Kalakaar 2025 (1)(1)(1).png
+"GET /Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 404 3613
+"GET / HTTP/1.1" 200 52652
+Not Found: /Bhudev Kalakaar 2025 (1)(1)(1).png
+"GET /Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 404 3613
+Not Found: /Bhudev Kalakaar 2025 (1)(1)(1).png
+"GET /Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 404 3613
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 52652
+Not Found: /Bhudev Kalakaar 2025 (1)(1)(1).png
+"GET /Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 404 3613
+Not Found: /Bhudev Kalakaar 2025 (1)(1)(1).png
+"GET /Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 404 3613
+Bad Request: /api/submit/
+"POST /api/submit/ HTTP/1.1" 400 92
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\registration\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\registration\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 54643
+Not Found: /Bhudev Kalakaar 2025 (1)(1)(1).png
+"GET /Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 404 3613
+Not Found: /Bhudev Kalakaar 2025 (1)(1)(1).png
+"GET /Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 404 3613
+Form submission received from IP: 127.0.0.1
+Request method: POST
+Content type: multipart/form-data
+Form data received: {'full_name': 'wsedrtgh', 'gender': 'female', 'date_of_birth': '12-34-5678', 'age_group': '21-40', 'event': 'dancing', 'city': 'asdf', 'whatsapp_number': '23456789', 'terms': 'yes', 'photo': <InMemoryUploadedFile: image-removebg-preview.png (image/png)>}
+Serializer validation failed: {'whatsapp_number': [ErrorDetail(string='Please enter a valid WhatsApp number.', code='invalid')]}
+Bad Request: /api/submit/
+"POST /api/submit/ HTTP/1.1" 400 148
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3649
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\talent_event_backend\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\talent_event_backend\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\registration\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\registration\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\registration\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\registration\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\registration\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\registration\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\registration\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 54643
+Not Found: /Bhudev Kalakaar 2025 (1)(1)(1).png
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 404 3178
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3214
+Not Found: /Bhudev Kalakaar 2025 (1)(1)(1).png
+"GET /Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 404 3178
+Not Found: /api/submit/
+"POST /api/submit/ HTTP/1.1" 404 3104
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\registration\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\registration\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 54643
+Not Found: /Bhudev Kalakaar 2025 (1)(1)(1).png
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 404 3178
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3214
+Not Found: /Bhudev Kalakaar 2025 (1)(1)(1).png
+"GET /Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 404 3178
+Not Found: /api/submit/
+"POST /api/submit/ HTTP/1.1" 404 3104
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\talent_event_backend\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\talent_event_backend\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\talent_event_backend\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 41441
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3341
+"GET /static/images/Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 200 333874
+"GET / HTTP/1.1" 200 41441
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3341
+Registration created successfully: ID 282fbd3e-9b8d-40e9-8608-d0bbe11c81ba
+"POST /submit/ HTTP/1.1" 302 0
+"GET /confirmation/ HTTP/1.1" 200 9752
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3341
+Registration created successfully: ID a8b0fbb8-f174-41eb-9dea-cb153d3f8de9
+"POST /submit/ HTTP/1.1" 302 0
+"GET /confirmation/ HTTP/1.1" 200 9752
+"GET /admin/users/userdata/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/users/userdata/ HTTP/1.1" 200 4221
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+"GET /static/admin/css/base.css HTTP/1.1" 200 21310
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+"GET /static/admin/css/login.css HTTP/1.1" 200 958
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 18559
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4191
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 7346
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /admin/registration/talenteventregistration/ HTTP/1.1" 200 17084
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/js/core.js HTTP/1.1" 200 5682
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+"GET /media/participant_photos/6c330c07-209d-4322-ba58-1082c07c8935.png HTTP/1.1" 200 62233
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /media/participant_photos/5ec2b016-e7f4-48ef-92a2-b13501ec7562.png HTTP/1.1" 200 62233
+"GET /media/participant_photos/94167f81-8680-4502-bf55-46fa9d74a8b7.png HTTP/1.1" 200 320254
+"GET /admin/registration/registrationactivity/ HTTP/1.1" 200 12794
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/registration/registrationactivity/2/change/ HTTP/1.1" 200 13781
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+"GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11921
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"GET /admin/registration/talenteventregistration/ HTTP/1.1" 200 17084
+"GET /media/participant_photos/6c330c07-209d-4322-ba58-1082c07c8935.png HTTP/1.1" 304 0
+"GET /media/participant_photos/5ec2b016-e7f4-48ef-92a2-b13501ec7562.png HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET / HTTP/1.1" 200 53598
+"GET / HTTP/1.1" 200 53598
+"GET / HTTP/1.1" 200 53598
+"GET / HTTP/1.1" 200 53448
+Registration created successfully: ID dc8c6e5e-5480-4140-a379-2edf67a4b0d6
+"POST /submit/ HTTP/1.1" 302 0
+"GET /confirmation/ HTTP/1.1" 200 9752
+Watching for file changes with StatReloader
+Not Found: /admin/users/userdata/
+"GET /admin/users/userdata/ HTTP/1.1" 404 5036
+"GET /admin/ HTTP/1.1" 200 11460
+"GET /static/grappelli/stylesheets/mueller/grid/output.css HTTP/1.1" 200 36537
+"GET /static/grappelli/jquery/ui/jquery-ui.min.css HTTP/1.1" 200 29614
+"GET /static/grappelli/jquery/jquery-migrate-3.0.1.min.js HTTP/1.1" 200 11421
+"GET /static/grappelli/jquery/jquery.min.js HTTP/1.1" 200 89501
+"GET /static/grappelli/stylesheets/screen.css HTTP/1.1" 200 128920
+"GET /static/grappelli/js/grappelli.min.js HTTP/1.1" 200 27906
+"GET /static/grappelli/jquery/ui/jquery-ui.min.js HTTP/1.1" 200 255084
+"GET /static/grappelli/images/spritesheet-1694777276.png HTTP/1.1" 200 25228
+"GET /admin/registration/talenteventregistration/ HTTP/1.1" 200 23884
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 7958
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 200 8337
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /media/participant_photos/6c330c07-209d-4322-ba58-1082c07c8935.png HTTP/1.1" 304 0
+"GET /media/participant_photos/5ec2b016-e7f4-48ef-92a2-b13501ec7562.png HTTP/1.1" 304 0
+"GET /media/participant_photos/94167f81-8680-4502-bf55-46fa9d74a8b7.png HTTP/1.1" 304 0
+"GET /static/grappelli/images/icons/form-select.png HTTP/1.1" 200 289
+"GET /static/grappelli/images/backgrounds/changelist-results.png HTTP/1.1" 200 244
+"GET /media/participant_photos/1d01efba-3e89-46f3-b25a-dd3c20d4f5e1.png HTTP/1.1" 200 317469
+"GET /admin/registration/talenteventregistration/dc8c6e5e-5480-4140-a379-2edf67a4b0d6/change/ HTTP/1.1" 200 21886
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /admin/registration/talenteventregistration/ HTTP/1.1" 200 23884
+"GET /static/grappelli/jquery/ui/jquery-ui.min.css HTTP/1.1" 304 0
+"GET /static/grappelli/stylesheets/screen.css HTTP/1.1" 304 0
+"GET /static/grappelli/stylesheets/mueller/grid/output.css HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/jquery-migrate-3.0.1.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/js/grappelli.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/ui/jquery-ui.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\registration\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\registration\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\registration\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\registration\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\registration\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\registration\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 53448
+"GET /static/images/Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 304 0
+"GET /admin/ HTTP/1.1" 200 11460
+"GET /static/grappelli/jquery/ui/jquery-ui.min.css HTTP/1.1" 304 0
+"GET /static/grappelli/stylesheets/screen.css HTTP/1.1" 304 0
+"GET /static/grappelli/stylesheets/mueller/grid/output.css HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/jquery-migrate-3.0.1.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/ui/jquery-ui.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/js/grappelli.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/images/spritesheet-1694777276.png HTTP/1.1" 304 0
+Internal Server Error: /admin/registration/talenteventregistration/
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: registration_talenteventregistration.serial_number
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\venv\Lib\site-packages\django\contrib\admin\options.py", line 2065, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: registration_talenteventregistration.serial_number
+"GET /admin/registration/talenteventregistration/ HTTP/1.1" 500 176862
+Watching for file changes with StatReloader
+"GET /admin/registration/talenteventregistration/ HTTP/1.1" 200 23868
+"GET /static/grappelli/jquery/ui/jquery-ui.min.css HTTP/1.1" 304 0
+"GET /static/grappelli/stylesheets/mueller/grid/output.css HTTP/1.1" 304 0
+"GET /static/grappelli/stylesheets/screen.css HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/jquery-migrate-3.0.1.min.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/ui/jquery-ui.min.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+"GET /static/grappelli/js/grappelli.min.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+"GET /static/grappelli/images/backgrounds/changelist-results.png HTTP/1.1" 304 0
+"GET /static/grappelli/images/spritesheet-1694777276.png HTTP/1.1" 304 0
+"GET /media/participant_photos/94167f81-8680-4502-bf55-46fa9d74a8b7.png HTTP/1.1" 304 0
+"GET /media/participant_photos/5ec2b016-e7f4-48ef-92a2-b13501ec7562.png HTTP/1.1" 304 0
+"GET /media/participant_photos/1d01efba-3e89-46f3-b25a-dd3c20d4f5e1.png HTTP/1.1" 304 0
+"GET /media/participant_photos/6c330c07-209d-4322-ba58-1082c07c8935.png HTTP/1.1" 304 0
+"GET /static/grappelli/images/icons/form-select.png HTTP/1.1" 304 0
+"GET /admin/registration/ HTTP/1.1" 200 9063
+"GET /admin/registration/talenteventregistration/ HTTP/1.1" 200 23868
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\registration\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\registration\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\registration\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\registration\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\registration\admin.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /admin/registration/talenteventregistration/ HTTP/1.1" 200 23889
+"GET /static/grappelli/stylesheets/mueller/grid/output.css HTTP/1.1" 304 0
+"GET /static/grappelli/stylesheets/screen.css HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/ui/jquery-ui.min.css HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/jquery-migrate-3.0.1.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/ui/jquery-ui.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/js/grappelli.min.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /media/participant_photos/1d01efba-3e89-46f3-b25a-dd3c20d4f5e1.png HTTP/1.1" 304 0
+"GET /static/grappelli/images/spritesheet-1694777276.png HTTP/1.1" 304 0
+"GET /static/grappelli/images/backgrounds/changelist-results.png HTTP/1.1" 304 0
+"GET /static/grappelli/images/icons/form-select.png HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+"GET /admin/ HTTP/1.1" 200 11460
+"GET /static/grappelli/jquery/ui/jquery-ui.min.css HTTP/1.1" 304 0
+"GET /static/grappelli/stylesheets/screen.css HTTP/1.1" 304 0
+"GET /static/grappelli/js/grappelli.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/stylesheets/mueller/grid/output.css HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/jquery-migrate-3.0.1.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/ui/jquery-ui.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/images/spritesheet-1694777276.png HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 53448
+"GET /admin/ HTTP/1.1" 200 11460
+"GET / HTTP/1.1" 200 53448
+Registration created successfully: ID 74a3829a-6c43-4747-85af-2d3ea2fc1a51
+"POST /submit/ HTTP/1.1" 302 0
+"GET /confirmation/ HTTP/1.1" 200 9752
+Not Found: /admin/users/userdata/
+"GET /admin/users/userdata/ HTTP/1.1" 404 5036
+Not Found: /admin/users/userdata/
+"GET /admin/users/userdata/ HTTP/1.1" 404 5036
+"GET /admin/ HTTP/1.1" 200 11460
+"GET /admin/registration/talenteventregistration/ HTTP/1.1" 200 24857
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /media/participant_photos/94167f81-8680-4502-bf55-46fa9d74a8b7.png HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /media/participant_photos/5ec2b016-e7f4-48ef-92a2-b13501ec7562.png HTTP/1.1" 304 0
+"GET /media/participant_photos/1d01efba-3e89-46f3-b25a-dd3c20d4f5e1.png HTTP/1.1" 304 0
+"GET /media/participant_photos/6c330c07-209d-4322-ba58-1082c07c8935.png HTTP/1.1" 304 0
+"GET /static/grappelli/images/icons/form-select.png HTTP/1.1" 304 0
+"GET /static/grappelli/images/backgrounds/changelist-results.png HTTP/1.1" 304 0
+"GET /media/participant_photos/2001f764-04f1-49ce-b3a3-00ba3550049d.png HTTP/1.1" 200 317469
+"GET / HTTP/1.1" 200 53448
+"GET / HTTP/1.1" 200 0
+"GET / HTTP/1.1" 200 0
+"GET / HTTP/1.1" 200 0
+"GET / HTTP/1.1" 200 53448
+"GET /static/images/Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 53444
+"GET / HTTP/1.1" 200 53559
+"GET / HTTP/1.1" 200 53555
+"GET / HTTP/1.1" 200 53555
+"GET / HTTP/1.1" 200 53555
+"GET / HTTP/1.1" 200 53555
+"GET / HTTP/1.1" 200 53556
+"GET / HTTP/1.1" 200 53565
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\registration\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\registration\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\registration\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\registration\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\registration\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\registration\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\registration\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\registration\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\registration\admin.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 53565
+"GET /admin/ HTTP/1.1" 200 11460
+"GET /static/grappelli/jquery/ui/jquery-ui.min.css HTTP/1.1" 304 0
+"GET /static/grappelli/stylesheets/mueller/grid/output.css HTTP/1.1" 304 0
+"GET /static/grappelli/stylesheets/screen.css HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/ui/jquery-ui.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/jquery-migrate-3.0.1.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/js/grappelli.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/images/spritesheet-1694777276.png HTTP/1.1" 304 0
+"GET /admin/registration/talenteventregistration/ HTTP/1.1" 200 24970
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+"GET /media/participant_photos/2001f764-04f1-49ce-b3a3-00ba3550049d.png HTTP/1.1" 304 0
+"GET /media/participant_photos/1d01efba-3e89-46f3-b25a-dd3c20d4f5e1.png HTTP/1.1" 304 0
+"GET /media/participant_photos/94167f81-8680-4502-bf55-46fa9d74a8b7.png HTTP/1.1" 304 0
+"GET /media/participant_photos/6c330c07-209d-4322-ba58-1082c07c8935.png HTTP/1.1" 304 0
+"GET /media/participant_photos/5ec2b016-e7f4-48ef-92a2-b13501ec7562.png HTTP/1.1" 304 0
+"GET /static/grappelli/images/backgrounds/changelist-results.png HTTP/1.1" 304 0
+"GET /static/grappelli/images/icons/form-select.png HTTP/1.1" 304 0
+"GET /admin/registration/talenteventregistration/?o= HTTP/1.1" 200 24908
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/registration/talenteventregistration/c7e47498-cb09-4dce-af64-31d8694e794c/change/?_changelist_filters=o%3D HTTP/1.1" 200 22065
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /static/admin/js/collapse.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/registration/talenteventregistration/ HTTP/1.1" 200 24970
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/registration/ HTTP/1.1" 200 9063
+"GET /admin/registration/registrationactivity/ HTTP/1.1" 200 18753
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/registration/ HTTP/1.1" 200 9063
+"GET /admin/registration/talenteventregistration/ HTTP/1.1" 200 24970
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/registration/talenteventregistration/?o= HTTP/1.1" 200 24908
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/registration/ HTTP/1.1" 200 9063
+"GET /admin/registration/talenteventregistration/ HTTP/1.1" 200 24970
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/registration/ HTTP/1.1" 200 9063
+"GET / HTTP/1.1" 200 53565
+"GET /admin/ HTTP/1.1" 200 11460
+"GET /admin/registration/talenteventregistration/ HTTP/1.1" 200 24970
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /media/participant_photos/2001f764-04f1-49ce-b3a3-00ba3550049d.png HTTP/1.1" 304 0
+"GET /admin/registration/talenteventregistration/?o= HTTP/1.1" 200 24908
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\registration\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\registration\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\registration\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\hp\Desktop\Gagan Work\birthday candidate form\talent_event_backend\registration\admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 53565
+"GET /admin/ HTTP/1.1" 200 11460
+"GET /static/grappelli/jquery/ui/jquery-ui.min.css HTTP/1.1" 304 0
+"GET /static/grappelli/stylesheets/screen.css HTTP/1.1" 304 0
+"GET /static/grappelli/js/grappelli.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/jquery-migrate-3.0.1.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/stylesheets/mueller/grid/output.css HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/ui/jquery-ui.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/images/spritesheet-1694777276.png HTTP/1.1" 304 0
+"GET /admin/registration/talenteventregistration/ HTTP/1.1" 200 25046
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /media/participant_photos/2001f764-04f1-49ce-b3a3-00ba3550049d.png HTTP/1.1" 304 0
+"GET /static/grappelli/images/backgrounds/changelist-results.png HTTP/1.1" 304 0
+"GET /static/grappelli/images/icons/form-select.png HTTP/1.1" 304 0
+"POST /admin/registration/talenteventregistration/ HTTP/1.1" 200 5681
+"GET /admin/registration/ HTTP/1.1" 200 9063
+"GET /static/grappelli/stylesheets/screen.css HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/ui/jquery-ui.min.css HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/ui/jquery-ui.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/js/grappelli.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/stylesheets/mueller/grid/output.css HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/jquery-migrate-3.0.1.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/grappelli/images/spritesheet-1694777276.png HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 53565
+"GET /static/images/Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 304 0
+"GET /admin/ HTTP/1.1" 200 11460
+"GET /admin/registration/talenteventregistration/ HTTP/1.1" 200 25046
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /media/participant_photos/94167f81-8680-4502-bf55-46fa9d74a8b7.png HTTP/1.1" 304 0
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+"GET /media/participant_photos/5ec2b016-e7f4-48ef-92a2-b13501ec7562.png HTTP/1.1" 304 0
+"GET /media/participant_photos/6c330c07-209d-4322-ba58-1082c07c8935.png HTTP/1.1" 304 0
+"GET /media/participant_photos/2001f764-04f1-49ce-b3a3-00ba3550049d.png HTTP/1.1" 304 0
+"GET /media/participant_photos/1d01efba-3e89-46f3-b25a-dd3c20d4f5e1.png HTTP/1.1" 304 0
+"GET /static/grappelli/images/icons/form-select.png HTTP/1.1" 304 0
+"GET /static/grappelli/images/backgrounds/changelist-results.png HTTP/1.1" 304 0
+"POST /admin/registration/talenteventregistration/ HTTP/1.1" 200 365733
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 53565
+"GET /static/images/Bhudev%20Kalakaar%202025%20(1)(1)(1).png HTTP/1.1" 200 333874
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3340
+"GET /admin/ HTTP/1.1" 200 11819
+"GET /static/grappelli/jquery/ui/jquery-ui.min.css HTTP/1.1" 200 29614
+"GET /static/grappelli/stylesheets/screen.css HTTP/1.1" 200 128920
+"GET /static/grappelli/jquery/jquery-migrate-3.0.1.min.js HTTP/1.1" 200 11421
+"GET /static/grappelli/js/grappelli.min.js HTTP/1.1" 200 27906
+"GET /static/grappelli/stylesheets/mueller/grid/output.css HTTP/1.1" 200 36537
+"GET /static/grappelli/jquery/jquery.min.js HTTP/1.1" 200 89501
+"GET /static/grappelli/jquery/ui/jquery-ui.min.js HTTP/1.1" 200 255084
+"GET /static/grappelli/images/spritesheet-1694777276.png HTTP/1.1" 200 25228
+"GET /admin/registration/talenteventregistration/ HTTP/1.1" 200 25046
+"GET /static/admin/js/actions.js HTTP/1.1" 200 8337
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/js/core.js HTTP/1.1" 200 5682
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 7958
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /media/participant_photos/94167f81-8680-4502-bf55-46fa9d74a8b7.png HTTP/1.1" 200 320254
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+"GET /media/participant_photos/5ec2b016-e7f4-48ef-92a2-b13501ec7562.png HTTP/1.1" 200 62233
+"GET /static/grappelli/images/backgrounds/changelist-results.png HTTP/1.1" 200 244
+"GET /media/participant_photos/1d01efba-3e89-46f3-b25a-dd3c20d4f5e1.png HTTP/1.1" 200 317469
+"GET /media/participant_photos/2001f764-04f1-49ce-b3a3-00ba3550049d.png HTTP/1.1" 200 317469
+"GET /static/grappelli/images/icons/form-select.png HTTP/1.1" 200 289
+"GET /media/participant_photos/6c330c07-209d-4322-ba58-1082c07c8935.png HTTP/1.1" 200 62233
+"GET /admin/registration/talenteventregistration/?o= HTTP/1.1" 200 24984
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/registration/talenteventregistration/ HTTP/1.1" 200 25046
+"GET / HTTP/1.1" 200 53565
+"GET / HTTP/1.1" 200 53565
+Registration created successfully: ID 0b1a9245-8e0c-4bd3-8993-f64b84124485
+"POST /submit/ HTTP/1.1" 302 0
+"GET /confirmation/ HTTP/1.1" 200 8689
+"GET /confirmation/ HTTP/1.1" 200 8977
